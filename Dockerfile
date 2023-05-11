@@ -3,7 +3,7 @@
 # It is expected that the configuration should be generated separately, as from https://github.com/CyCoreSystems/asterisk-config.
 #
 
-FROM debian:stretch as builder
+FROM debian:latest as builder
 MAINTAINER Seán C McCord "ulexus@gmail.com"
 
 ENV ASTERISK_VER 18.18.0
